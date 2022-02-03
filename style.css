@@ -65,6 +65,13 @@ mark{
     transition: 0.3s;
     width: 82%;
 }
+ .cursos {
+    list-style-position: inside;
+    columns:2  ;
+}
+#info{
+    margin:8px;
+}
 .titulo{
     text-align: center;
     font-size: 1.5em;
@@ -103,11 +110,19 @@ footer > h3{
 #icon{
     display: flex;
     justify-content: space-around;
-    margin-left: 10px 5px 1-px 5px;
 }
 #renan > a {
     text-decoration: none;
     color: black;
+}
+.port{
+    text-align: center;
+    margin: 5%;
+    margin-top: 10px;
+    font-family:'Raleway', sans-serif;
+}
+#site-renan{
+    color: #fd0505ef;
 }
 @media (min-width: 1200px){
     #sobre, .formacao{
